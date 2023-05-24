@@ -1,0 +1,72 @@
+/* google fonts */
+/* font-family: 'Homemade Apple', cursive; */
+/* font-family: 'Pangolin', cursive; (handwritten chalk like)*/
+
+/* Insert any CSS code below here */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 160vh;
+    margin: 120px;
+    background-image: url(paper-3.png);
+    border-radius: 2%;
+}
+.wanted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin',sans-serif, cursive;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ad1212;
+}
+.criminal {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.name {
+    font-family: 'Pangolin', sans-serif, cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-decoration: underline #ad1212;
+}
+.info {
+    font-family: 'Homemade Apple', sans-serif, cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-family: 'Pangolin', sans-serif, cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+ul.desc {
+    display: inline-block;
+    text-align: left;
+}
+.money {
+    font-family: 'Homemade Apple', sans-serif, cursive;
+    font-size: 80px;
+    color: rgb(212, 96, 39);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+}  
+img:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+    transition: 0.3s;
+}
