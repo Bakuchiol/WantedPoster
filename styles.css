@@ -9,6 +9,22 @@
 body {
     background: #000;
 }
+h2, h3 {
+    font-family: 'Pangolin', sans-serif, cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+}  
+img:hover {
+    filter: drop-shadow(0 0 0.75rem #dc143c);
+    transition: 0.3s;
+}
 .poster {
     display: flex;
     justify-content: center;
@@ -43,30 +59,25 @@ body {
 .info {
     font-family: 'Homemade Apple', sans-serif, cursive;
     font-size: 20px;
-    margin-bottom: 10px;
-}
-h3 {
-    font-family: 'Pangolin', sans-serif, cursive;
-    font-weight: bold;
-    font-size: 30px;
+    margin: 30px 0 10px 0;
 }
 ul.desc {
     display: inline-block;
     text-align: left;
 }
+.reward {
+    font-weight: bold;
+    margin-top: 30px;
+}
 .money {
+    margin: -40px 0 -40px 0;
     font-family: 'Homemade Apple', sans-serif, cursive;
     font-size: 80px;
-    color: rgb(212, 96, 39);
+    color: #d46027;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 60%;
-}  
-img:hover {
-    filter: drop-shadow(0 0 0.75rem crimson);
-    transition: 0.3s;
+.space {
+    margin-top: 50px;
+}
+.next {
+    background: #f4f453;
 }
